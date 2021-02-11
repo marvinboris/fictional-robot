@@ -1,0 +1,8 @@
+.BeautifulImage {
+    transform: scale(0.8);
+    transition: all 0.1s;
+}
+
+.owl-item.active.center .BeautifulImage {
+    transform: scale(1);
+}
